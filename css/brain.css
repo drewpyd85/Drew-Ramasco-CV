@@ -1,0 +1,175 @@
+.brain-row {
+    width: 900px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.brain-title {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.25s ease;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.left-circle img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-circle img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brain {
+    margin: 0 7px;
+/*            opacity: 0.5;*/
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.brain:hover {
+    opacity: 1;
+}
+
+.left-brain {
+    padding-left: 150px;
+}
+
+.left-brain:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-right: 5%;
+}
+
+.left-brain:hover .brain-title {
+    opacity: 0;
+}
+
+.right-brain {
+    padding-right: 150px;
+}
+
+.right-brain:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    margin-left: 5%;
+}
+
+.right-brain:hover .brain-title {
+    opacity: 0;
+}
+
+.left-circle,
+.right-circle {
+    font-family: 'Special Elite', cursive;
+    position: absolute;
+    z-index: -1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transition: all 0.5s cubic-bezier(.35, -0.37, 0, 1.39);
+    transition: all 0.5s cubic-bezier(.35, -0.37, 0, 1.39);
+}
+
+.left-circle {
+    -webkit-transform: translate(100px, -300px);
+    -ms-transform: translate(100px, -300px);
+    transform: translate(100px, -300px);
+}
+
+.right-circle {
+    -webkit-transform: translate(50px, -300px);
+    -ms-transform: translate(50px, -300px);
+    transform: translate(50px, -300px);
+}
+
+.left-brain:hover .left-circle:nth-child(2) {
+    -webkit-transform: translate(-120px, -500px);
+    -ms-transform: translate(-120px, -500px);
+    transform: translate(-120px, -500px);
+    opacity: 1;
+}
+
+.left-brain:hover .left-circle:nth-child(3) {
+    -webkit-transform: translate(-170px, -250px);
+    -ms-transform: translate(-170px, -250px);
+    transform: translate(-170px, -250px);
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.left-brain:hover .left-circle:nth-child(4) {
+    -webkit-transform: translate(-100px, -60px);
+    -ms-transform: translate(-100px, -60px);
+    transform: translate(-100px, -60px);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.right-brain:hover .right-circle:nth-child(2) {
+    -webkit-transform: translate(250px, -500px);
+    -ms-transform: translate(250px, -500px);
+    transform: translate(250px, -500px);
+    opacity: 1;
+}
+
+.right-brain:hover .right-circle:nth-child(3) {
+    -webkit-transform: translate(280px, -250px);
+    -ms-transform: translate(280px, -250px);
+    transform: translate(280px, -250px);
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.right-brain:hover .right-circle:nth-child(4) {
+    -webkit-transform: translate(220px, -50px);
+    -ms-transform: translate(220px, -50px);
+    transform: translate(220px, -50px);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+.smallBrain {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,65 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.css
+FileModTime:1445112631
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.eot
+FileModTime:1445112632
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.svg
+FileModTime:1445112633
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:socicon
+FamilyName:socicon
+StyleName:Regular
+FullName:socicon Regular
+MenuName:socicon
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.ttf
+DataFormat:sfntData
+FileLength:44524
+FileModTime:1445112634
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,socicon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.woff
+FileModTime:1445112635
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\socicon.woff2
+FileModTime:1445112636
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Drew\Dropbox\Drew Ramasco\Font\_DS_Store
+FileModTime:1445112637
+%EndFont
+
